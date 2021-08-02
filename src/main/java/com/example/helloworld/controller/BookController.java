@@ -53,7 +53,7 @@ public class BookController {
         employeeMapper.addEmployee(newEmployee);
         list=employeeMapper.findEmployee();
         list.forEach(System.out::println);
-        System.out.println("==============================");
+        System.out.println("========================");
         /*删除*/
         employeeMapper.deleteEmployee(2L);
         list=employeeMapper.findEmployee();
