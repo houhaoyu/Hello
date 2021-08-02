@@ -1,0 +1,9 @@
+wuhan2020: 111
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/mybatisplus?serverTimezone=UTC
+    password: root
